@@ -1,0 +1,42 @@
+/* Estilos para el título */
+h1 {
+    font-size: 36px;
+    color: #FF5733; /* Color naranja brillante */
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* Estilos para el párrafo */
+p {
+    font-size: 20px;
+    color: #29A19C; /* Color verde azulado */
+    text-align: center;
+    background-color: #FFFF66; /* Fondo amarillo suave */
+    padding: 20px; /* Espaciado interior */
+    border-radius: 10px; /* Esquinas redondeadas */
+    animation: colorful 5s infinite alternate; /* Animación de color */
+}
+
+/* Animación de color */
+@keyframes colorful {
+    0% {
+        background-color: #FFFF66; /* Amarillo */
+        color: #29A19C; /* Verde azulado */
+    }
+    25% {
+        background-color: #FF5733; /* Naranja brillante */
+        color: #FFFF66; /* Amarillo */
+    }
+    50% {
+        background-color: #29A19C; /* Verde azulado */
+        color: #FF5733; /* Naranja brillante */
+    }
+    75% {
+        background-color: #FFFF66; /* Amarillo */
+        color: #29A19C; /* Verde azulado */
+    }
+    100% {
+        background-color: #29A19C; /* Verde azulado */
+        color: #FF5733; /* Naranja brillante */
+    }
+}
